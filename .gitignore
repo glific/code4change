@@ -139,9 +139,16 @@ celeryworker.pid
 celerybeat.pid
 
 secrets/
-data/
 
 celerybeat-schedule.db
 
 createsources.env
 parseprefectlogs.env
+
+data/*.csv
+data/*.json
+data/*.xlsx
+
+output/*.csv
+output/*.json
+output/*.xlsx

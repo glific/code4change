@@ -36,5 +36,21 @@ This repository contains code for the [ISDM hackathon]([url](https://www.isdm.or
 Remember to deactivate the virtual environment when you're done:
 ```bash
 deactivate
+```
 
 
+## Start the interactive jupyter notebook
+
+Make sure the python virtual environment is activated and dependencies are installed. From the root directory launch the jupyter server
+
+```bash
+jupyter notebook
+```
+
+## Running scripts
+
+Activate the env and go to the project root and run the script as
+
+```bash
+python scripts/<file_name>.py
+```
