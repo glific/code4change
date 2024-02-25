@@ -22,11 +22,11 @@ This repository contains code for the [ISDM hackathon]([url](https://www.isdm.or
 4. **Activate the Virtual Environment**: Before you can start installing or using packages in your virtual environment you’ll need to activate it. Activation depends on your operating system:
     - On macOS and Linux:
         ```bash
-        source env/bin/activate
+        source venv/bin/activate
         ```
     - On Windows:
         ```bash
-        .\env\Scripts\activate
+        .\venv\Scripts\activate
         ```
 5. **Install Required Packages**: Install the required packages using pip. If you have a `requirements.txt` file, you can install all packages from it:
     ```bash
